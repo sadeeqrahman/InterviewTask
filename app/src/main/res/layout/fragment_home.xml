@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+        android:fillViewport="true"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@color/view_background_color"
+        android:layout_height="match_parent"
+        tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/header">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/alundry_icon"/>
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginTop="-20dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/light_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_blue_color"
+                android:drawableLeft="@drawable/order_icon"
+                android:drawableRight="@drawable/dark_arrow_icon"
+                android:paddingRight="10dp"
+                android:text="@string/orders"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginTop="10dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/dark_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/how_works"
+                android:drawableRight="@drawable/light_arrown_icon"
+                android:paddingRight="10dp"
+                android:textColor="@color/light_sky_color"
+                android:text="@string/how_works"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginTop="10dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/light_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_blue_color"
+                android:drawableLeft="@drawable/about_us"
+                android:drawableRight="@drawable/dark_arrow_icon"
+                android:paddingRight="10dp"
+                android:text="@string/about_us"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginTop="10dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/dark_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/contact_us"
+                android:drawableRight="@drawable/light_arrown_icon"
+                android:paddingRight="10dp"
+                android:textColor="@color/light_sky_color"
+                android:text="@string/contact_us"/>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
